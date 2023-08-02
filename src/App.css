@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,12 +9,92 @@
   pointer-events: none;
 }
 
+body {
+  background-color: rgba(255, 233, 91, 1);
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a:link {
+  color: rgb(114, 114, 114) !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: rgb(114, 114, 114) !important;
+}
+
+a:visited {
+  color: rgb(114, 114, 114)!important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dot>div>div>div {
+  width: 5px !important;
+  height: 5px !important;
+  background-color: rgba(251, 90, 80, 1) !important;
+}
+
+.dot>div {
+z-index: 999 !important;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none !important;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+  outline: 1px solid rgba(251, 90, 80, 1) ;
+  outline-offset: 3px;
+  -webkit-outline-radius: 0px !important;
+  -moz-outline-radius: 0px !important;
+}
+
+.leaflet-control-zoom-in {
+  background: rgba(255, 233, 91, 1);
+}
+
+.leaflet-touch .leaflet-bar a {
+  background: rgba(255, 233, 91, 1) !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +117,173 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  background: url("../public/logo512.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50px 70px;
+  width: 50px;
+  height: 70px;
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 95%;
+  z-index: 1;
+}
+
+.sentence {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 2.3em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(5, 5, 5, 1);
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  padding-bottom: 10px !important;
+
+}
+
+.title {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 8em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80); */
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  /* padding-bottom: 10px !important; */
+  position: absolute;
+  z-index: 998;
+  cursor: none;
+}
+
+.titleh2 {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 4em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80); */
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  /* padding-bottom: 10px !important; */
+  position: absolute;
+  z-index: 998;
+  cursor: none;
+  margin-top: 15% !important;
+  text-align: right;
+}
+
+.notemap {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  font-weight: 100 !important;
+  font-size: 0.08em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+  padding-bottom: 20px !important;
+  /* text-align: center; */
+  animation: opacity 2s ease-in-out infinite alternate;
+  opacity: 1;
+  position: absolute;
+  z-index: 998;
+  padding: 10px;
+}
+
+.MuiSnackbarContent-message {
+  line-height: 1.5em !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .sentence {
+    font-weight: 400 !important;
+    font-size: 1.3em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+  }
+
+  .title {
+    font-weight: 400 !important;
+    font-size: 5em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+    overflow-wrap: anywhere !important;  
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+    font-size: 0.3em !important;
+  }
+
+  .basemap {
+    display: none;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+    height: 80px;
+  }
+
+  .MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    padding: 2px;
+  }
+
+  .MuiTableCell-root {
+    font-weight: 400 !important;
+    font-size: 0.6em !important;
+  }
+
+  .conclusion {
+    font-size: 0.9em !important;
+  }
+
+  .MuiSnackbarContent-message {
+    font-size: 1.5em !important;
+  }
+
+  .logo {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 87%;
+    display: none;
+  }
+
+  .license {
+    background-size: 100px 25px;
+    width: 100px;
+    height: 25px;
+  }
+
+  .titleh2 {
+    font-size: 2.8em !important;
+    overflow-wrap: anywhere !important; 
+    margin-top: 70% !important; 
+  }
+  
+
 }
