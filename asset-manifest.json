@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/quilombo/static/css/main.073c9b0a.css",
+    "main.js": "/quilombo/static/js/main.83740572.js",
+    "static/js/787.67d7796c.chunk.js": "/quilombo/static/js/787.67d7796c.chunk.js",
+    "static/media/logo.svg": "/quilombo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/quilombo/index.html",
+    "main.073c9b0a.css.map": "/quilombo/static/css/main.073c9b0a.css.map",
+    "main.83740572.js.map": "/quilombo/static/js/main.83740572.js.map",
+    "787.67d7796c.chunk.js.map": "/quilombo/static/js/787.67d7796c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.83740572.js"
+  ]
+}
