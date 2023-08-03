@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 const Basemap = () => {
 
-    const center = [-12.142835501974385, -50.70144563093028];
+    const center = [-1.8303945078330022, -50.908336754350714];
 
     return (
 
@@ -24,11 +24,11 @@ const Basemap = () => {
             <MapContainer
                 doubleClickZoom={false}
                 center={center}
-                zoom={5}
+                zoom={6}
                 scrollWheelZoom={false}
                 zoomControl={false}
                 minZoom={2}
-                maxZoom={11}
+                maxZoom={10}
                 maxBoundsViscosity={1.0}
                 style={{ height: "90vh", backgroundColor: 'rgba(255, 233, 91, 1)' }}
             >
