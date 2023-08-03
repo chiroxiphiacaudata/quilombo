@@ -59,7 +59,7 @@ const App = () => {
           </FullpageSection>
 
           <FullpageSection style={{
-            height: '75vh',
+            height: '85vh',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
             <Typography component='div' className="sentence" sx={{ mt: 2 }}>Beatriz Nascimento</Typography><Typography component='div' className="sentenceh2" sx={{ mt: 2 }}>“QUILOMBO É UMA HISTÓRIA. ESSA PALAVRA TEM UMA HISTÓRIA. A TERRA É O MEU QUILOMBO. MEU ESPAÇO É MEU QUILOMBO. ONDE EU ESTOU EU ESTOU. QUANDO EU ESTOU, EU SOU”<br /><br /></Typography>
