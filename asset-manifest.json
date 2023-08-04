@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/quilombo/static/css/main.22974f01.css",
-    "main.js": "/quilombo/static/js/main.1280f9bc.js",
+    "main.css": "/quilombo/static/css/main.5f06089b.css",
+    "main.js": "/quilombo/static/js/main.426379c2.js",
     "static/js/787.67d7796c.chunk.js": "/quilombo/static/js/787.67d7796c.chunk.js",
     "static/media/logo512.png": "/quilombo/static/media/logo512.db425eb0485363aa04c0.png",
+    "static/media/305.png": "/quilombo/static/media/305.61651180e7f232a9e4dc.png",
+    "static/media/277.png": "/quilombo/static/media/277.0b10abc4dbe66bc27016.png",
+    "static/media/salinas.png": "/quilombo/static/media/salinas.6b99c313ed10262f3617.png",
     "static/media/logo192.png": "/quilombo/static/media/logo192.8530156f27953713aa10.png",
+    "static/media/143.png": "/quilombo/static/media/143.45cf94cf631820a89581.png",
     "static/media/license.png": "/quilombo/static/media/license.e59b26f6a65b9db62117.png",
     "index.html": "/quilombo/index.html",
-    "main.22974f01.css.map": "/quilombo/static/css/main.22974f01.css.map",
-    "main.1280f9bc.js.map": "/quilombo/static/js/main.1280f9bc.js.map",
+    "main.5f06089b.css.map": "/quilombo/static/css/main.5f06089b.css.map",
+    "main.426379c2.js.map": "/quilombo/static/js/main.426379c2.js.map",
     "787.67d7796c.chunk.js.map": "/quilombo/static/js/787.67d7796c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22974f01.css",
-    "static/js/main.1280f9bc.js"
+    "static/css/main.5f06089b.css",
+    "static/js/main.426379c2.js"
   ]
 }
