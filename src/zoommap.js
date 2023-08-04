@@ -11,7 +11,7 @@ import Polquilombo from "./data/WSG84_SIMPLY_Territorios_quilom_pop.json";
 
 const Zoommap = () => {
 
-    const center = [-12.142835501974385, -50.70144563093028];
+    const center = [-2.1268592690097297, -49.42703156484675];
     const outerbounds = [
         [-36.04586463203836, -73.37722700007913],
         [6.297434025984137, -31.45340313670427],

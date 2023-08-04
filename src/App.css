@@ -153,7 +153,7 @@ a:visited {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
-  font-size: 3em !important;
+  font-size: 2.6em !important;
   letter-spacing: 5px !important;
   line-height: 1em !important;
   -webkit-text-fill-color: rgba(251, 90, 80, 1);
@@ -303,6 +303,45 @@ a:visited {
   text-align: center !important;
 }
 
+.trecentocinque {
+  background: url("../public/305.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+.centoquarantatre {
+  background: url("../public/143.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+.duecentosettantasette {
+  background: url("../public/277.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+.salinas {
+  background: url("../public/salinas.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
   .sentence {
@@ -377,9 +416,31 @@ a:visited {
   }
 
   .sentenceh2 {
-    font-size: 1.8em !important;
+    font-size: 1.3em !important;
     overflow-wrap: anywhere !important;
 
   }
+
+  .trecentocinque {
+    background-size: 50vw !important;
+    background-position: bottom right;
+  }
+
+  .centoquarantatre {
+    background-size: 50vw !important;
+    background-position: bottom right;
+  }
+
+  .duecentosettantasette {
+    background-size: 50vw !important;
+    background-position: bottom right;
+  }
+
+  .salinas {
+    background-size: 50vw !important;
+    background-position: bottom right;
+  }
+
+
 
 }
