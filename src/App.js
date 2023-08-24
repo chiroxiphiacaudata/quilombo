@@ -98,6 +98,15 @@ const App = () => {
             </CardContent>
           </FullpageSection>
 
+          <FullpageSection className="pitanga" style={{
+            height: '85vh',
+          }}>
+            <CardContent  sx={{ maxWidth: 800 }}>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>⦿ Mãe Bernadete</Typography><Typography component='div' className="sentenceh2" sx={{ mt: 2 }}>“SER QUILOMBOLA FAZ PARTE DA NOSSA ANCESTRALIDADE, DA NOSSA CULTURA E NÓS QUEREMOS NOSSA LIBERDADE, NOSSOS DIREITOS. E DAÍ POR DIANTE TER PAZ"<br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
+
           <FullpageSection className="zoomI" style={{
             height: '25vh',
             padding: '1em',

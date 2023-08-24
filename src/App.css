@@ -335,6 +335,14 @@ a:visited {
   background-position: bottom right;
 }
 
+.pitanga {
+  background: url("../public/pitanga.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
 
 
 
@@ -441,6 +449,9 @@ a:visited {
     background-position: bottom right;
   }
 
-
+  .pitanga {
+    background-size: 50vw !important;
+    background-position: bottom right;
+  }
 
 }
